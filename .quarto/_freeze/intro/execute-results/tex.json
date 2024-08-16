@@ -1,0 +1,11 @@
+{
+  "hash": "ddbdfe31736ad5d94e938b9ec11b392b",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Basic Python Programming\nsubtitle: Dynamic evaluation of user provided code and data visualisation\nformat: html\nfilters:\n  - pyodide\njupyter: python3\nexecute: \n  enabled: true\n\n---\n\n\n\n\n\n\n\n\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n```{pyodide-python}\na=10\nprint(a)\n```\n\n",
+    "supporting": [
+      "intro_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}

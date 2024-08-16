@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Python Programming"
+  author: "Course Coordinator"
+  search: true
+  repo-url: https://github.com/jjallaire/hopr/
+  downloads: [pdf, epub]
+  date: "16 August, 2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - programs.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: yeti
+  pdf:
+    documentclass: krantz
+  epub:
+    cover-image: cover.png
+reference-location: margin
