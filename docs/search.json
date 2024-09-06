@@ -10,43 +10,113 @@
     ]
   },
   {
+    "objectID": "Course_outline.html",
+    "href": "Course_outline.html",
+    "title": "1  Course Outline",
+    "section": "",
+    "text": "1.1 Course Overview\nCredits: 2\nHours per Week: 2\nCourse Objectives:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Outline</span>"
+    ]
+  },
+  {
+    "objectID": "Course_outline.html#course-overview",
+    "href": "Course_outline.html#course-overview",
+    "title": "1  Course Outline",
+    "section": "",
+    "text": "To develop algorithmic thinking and problem-solving skills.\nTo familiarize students with computer systems, software, and language translators.\nTo justify the use of Python for programming and algorithmic design.\nTo introduce Python programming concepts, including data types, conditional statements, and loops.\nTo implement functions, string operations, and real-time applications using Python’s data structures.\nTo enable students to apply their knowledge to solve practical problems through a micro project.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Outline</span>"
+    ]
+  },
+  {
+    "objectID": "Course_outline.html#key-ideas",
+    "href": "Course_outline.html#key-ideas",
+    "title": "1  Course Outline",
+    "section": "1.2 Key Ideas",
+    "text": "1.2 Key Ideas\n\n1.2.1 Topic 1: Introduction to Algorithmic Thinking\nLesson Outcomes:\n\nUnderstand the concept of algorithmic thinking.\nDevelop basic algorithms for simple problems.\nRecognize the importance of algorithms in problem-solving.\n\nContent:\n\nWhat is Algorithmic Thinking?\n\nImportance in problem-solving\nSteps in designing an algorithm\n\nExample Algorithms:\n\nSimple tasks (e.g., making a cup of tea)\n\n\nPractical Situation:\n\nCreate algorithms for everyday activities to illustrate the concept.\n\n\n\n1.2.2 Topic 2: Familiarization with Computer Systems and Language Translators\nLesson Outcomes:\n\nUnderstand basic computer architecture and components.\nIdentify different types of software and language translators.\n\nContent:\n\nIntroduction to Computer Architecture:\n\nBlock diagram of a computer\nHardware components (Input, Output devices)\nMemory types\n\nSoftware Types:\n\nHigh-level vs. Low-level languages\nAssembly languages\n\nLanguage Translators:\n\nCompilers, Interpreters, Assemblers\n\n\nPractical Situation:\n\nExplore how different programming languages and translators affect the execution of a simple program.\n\n\n\n1.2.3 Topic 3: Justification for Using Python\nLesson Outcomes:\n\nUnderstand the advantages of Python for algorithmic thinking and programming.\nCompare Python with other programming languages in terms of simplicity and effectiveness.\n\nContent:\n\nWhy Python?\n\nPython’s simplicity and readability\nComparison with other languages (e.g., C++, Java)\nPython’s role in modern software development and data science\n\n\nPractical Situation:\n\nDemonstrate a basic Python script and compare it with an equivalent script in another language.\n\n\n\n1.2.4 Topic 4: Developing Algorithms and Flow Charts\nLesson Outcomes:\n\nDevelop and represent algorithms using flowcharts.\nUnderstand properties of good algorithms.\n\nContent:\n\nIntroduction to Algorithms:\n\nProperties of good algorithms\n\nFlowchart Creation:\n\nBasic flowchart symbols and conventions\n\n\nPractical Situation:\n\nDesign flowcharts for simple algorithms (e.g., sorting a list of numbers).\n\n\n\n1.2.5 Topic 5: Data Types and Arithmetic Operations in Python\nLesson Outcomes:\n\nUnderstand and use basic data types and operators in Python.\nPerform arithmetic operations and handle expressions.\n\nContent: - Introduction to Python Programming:\n\nData types (int, float, str, etc.)\nKeywords and Variables\nInput and Output statements\nOperators and Arithmetic expressions\nOperator precedence and Evaluation of expressions\n\nPractical Situation:\n\nWrite a Python program that performs various arithmetic operations and displays results.\n\n\n\n1.2.6 Topic 6: Conditional Statements in Python\nLesson Outcomes:\n\nImplement and use conditional statements to control the flow of programs.\n\nContent: - Types of Conditional Statements:\n\nif, if-else, elif, nested if-else, if-elif-else\nPractical Examples:\n\nPrograms using conditional statements\n\n\nPractical Situation:\n\nCreate a Python program that determines if a number is positive, negative, or zero.\n\n\n\n1.2.7 Topic 7: Loop Structures in Python\nLesson Outcomes:\n\nUse loop structures to repeat actions and iterate over data.\n\nContent:\n\nIntroduction to Looping:\n\nfor, while, nested loops\nbreak, continue, pass statements\nrange function\n\nSample Programs:\n\nImplementing various loop constructs\n\n\nPractical Situation:\n\nWrite a Python program that calculates the factorial of a number using loops.\n\n\n\n1.2.8 Topic 8: Functions in Python\nLesson Outcomes:\n\nDefine and use functions for modular programming.\nUnderstand function concepts including parameter passing and return values.\n\nContent:\n\nConcept of Functions:\n\nDefinition, Calling Functions\nPassing Parameters and Return Values\nType Conversion and Coercion\n\nAdvanced Function Concepts:\n\nLambda functions\nBuilt-in Mathematical functions\n\nSample Programs Using Functions\n\nPractical Situation:\n\nDevelop a Python program that uses functions to perform mathematical operations.\n\n\n\n1.2.9 Topic 9: String Operations in Python\nLesson Outcomes:\n\nManipulate and process strings using Python’s string handling functions.\n\nContent:\n\nIntroduction to Strings:\n\nString creation and manipulation\n\nString Handling Functions:\n\nCommonly used functions (e.g., split(), join(), replace())\n\n\nPractical Situation:\n\nWrite a Python program that processes and formats user input strings.\n\n\n\n1.2.10 Topic 10: Real-time/Technical Applications Using Data Structures\nLesson Outcomes:\n\nApply data structures (lists, tuples, dictionaries) to solve real-world problems.\n\nContent:\n\nLists, Tuples, Dictionaries:\n\nConcepts, operations, and functions\nMutable vs Immutable data structures\n\nApplications:\n\nIdentifying use cases\nSolving problems using lists, tuples, and dictionaries\n\n\nPractical Situation:\n\nCreate a Python program that manages a list of student records using lists and dictionaries.\n\n\n\n1.2.11 Topic 11: Micro Project\nLesson Outcomes:\n\nApply Python concepts to develop a project relevant to the student’s field of study.\n\nContent:\n\nProject Development:\n\nDesign and implementation of a simple project\nApplication of learned concepts to a practical problem\n\n\nPractical Situation:\n\nDevelop and present a micro project related to the student’s branch of study.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Outline</span>"
+    ]
+  },
+  {
+    "objectID": "Course_outline.html#teaching-methodology",
+    "href": "Course_outline.html#teaching-methodology",
+    "title": "1  Course Outline",
+    "section": "1.3 Teaching Methodology",
+    "text": "1.3 Teaching Methodology\n\nHands-on lab exercises\nStep-by-step problem-solving approach\nRegular assessments and feedback",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Outline</span>"
+    ]
+  },
+  {
+    "objectID": "Course_outline.html#evaluation",
+    "href": "Course_outline.html#evaluation",
+    "title": "1  Course Outline",
+    "section": "1.4 Evaluation",
+    "text": "1.4 Evaluation\n\nLab exercises and practical implementation\nMicro Project",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Outline</span>"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Basic Python Programming",
+    "title": "2  Basic Python Programming",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "2.1 Introduction\nThis chapter introduce the python programming for beginers.\nThis book is created with Quarto and pyodide extension is cused for online python scripting to demonstrate the python programming in this course site itself.\nSee Knuth (1984) for additional discussion of literate programming.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Python Programming</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Basic Python Programming</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#introduction",
+    "href": "intro.html#introduction",
+    "title": "2  Basic Python Programming",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Basic Python Programming</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#examples",
+    "href": "intro.html#examples",
+    "title": "2  Basic Python Programming",
+    "section": "2.2 Examples",
+    "text": "2.2 Examples\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Basic Python Programming</span>"
     ]
   },
   {
     "objectID": "programs.html",
     "href": "programs.html",
-    "title": "2  Sample Programs",
+    "title": "3  Sample Programs",
     "section": "",
-    "text": "2.1 Introduction to Python\nIn this tutorial, we will cover the basics of Python programming, including data types, keywords, variables, input/output statements, operators, arithmetic expressions, operator precedence, and evaluation of expressions.",
+    "text": "3.1 Introduction to Python\nIn this tutorial, we will cover the basics of Python programming, including data types, keywords, variables, input/output statements, operators, arithmetic expressions, operator precedence, and evaluation of expressions.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sample Programs</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sample Programs</span>"
     ]
   },
   {
     "objectID": "programs.html#data-types",
     "href": "programs.html#data-types",
-    "title": "2  Sample Programs",
-    "section": "2.2 Data Types",
-    "text": "2.2 Data Types\nPython supports several built-in data types. Let’s explore some of the most common ones:\n\nInteger (int): Represents whole numbers.\nFloating Point (float): Represents decimal numbers.\nString (str): Represents sequences of characters.\nBoolean (bool): Represents True or False.\n\n\nExample 1\n\n\nStatic TemplateInteractive Cell\n\n\n\n# Demonstrating different data types\n\n# Integer\na = 10\nprint(\"Integer:\", a, type(a))\n\n# Float\nb = 3.14\nprint(\"Float:\", b, type(b))\n\n\n# String\nc = \"Hello, Python!\"\nprint(\"String:\", c, type(c))\n\n# Boolean\nd = True\nprint(\"Boolean:\", d, type(d))\n\nInteger: 10 &lt;class 'int'&gt;\nFloat: 3.14 &lt;class 'float'&gt;\nString: Hello, Python! &lt;class 'str'&gt;\nBoolean: True &lt;class 'bool'&gt;\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n2.2.1 Variables\nVariables are used to store data in memory. A variable is created when you assign a value to it using the = operator.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n2.2.2 Input and Output Statements\nPython provides the input() function to take user input and the print() function to display output.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n2.2.3 Operators\nOperators are special symbols used to perform operations on variables and values. Python supports several types of operators:\nArithmetic Operators: +, -, *, /, //, %, ** Comparison Operators: ==, !=, &gt;, &lt;, &gt;=, &lt;= Logical Operators: and, or, not Assignment Operators: =, +=, -=, *=, /=, //=, %=, **=\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n2.2.4 Arithmetic Expressions\nAn arithmetic expression is a combination of numbers, operators, and variables that evaluates to a value.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n2.2.5 Operator Precedence\nOperator precedence determines the order in which operations are performed in an expression. The following list shows the precedence from highest to lowest:\n** (Exponentiation) *, /, //, % (Multiplication, Division, Floor Division, Modulus) +, - (Addition, Subtraction)\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n2.2.6 Evaluation of Expressions\nPython evaluates expressions from left to right, following the precedence rules.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n2.2.7 Conditional Statements in Python\nConditional statements in Python allow the execution of specific code blocks based on whether a condition is true or false. Let’s explore various types of conditional statements.\n\n2.2.7.1 The if Statement\nThe if statement tests a specific condition. If the condition is true, the code block under the if statement is executed.\nExample\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation The above program checks if number is greater than 0. Since 10 is greater than 0, the condition is true, and the message is printed.\n\n\n2.2.7.2 The if-else Statement\nThe if-else statement allows you to execute one block of code if the condition is true and another block if it is false.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation In this example, the program checks if number is greater than or equal to 0. If true, it prints that the number is non-negative. Otherwise, it prints that the number is negative. Example 2\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation This program checks if a person’s age is greater than or equal to 18. If true, it prints that the person is eligible to vote. Otherwise, it states they are not eligible to vote. #### The elif Statement The elif statement, short for “else if,” allows you to check multiple conditions sequentially. If one of the conditions is true, the corresponding block of code is executed.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation Here, the program checks three conditions: whether the number is positive, zero, or negative. The elif statement handles the case where number is exactly 0.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation This program assigns a grade based on the marks obtained. Depending on the range in which the marks fall, the corresponding grade is assigned and printed.\n\n\n2.2.7.3 Nested if-else Statements\nNested if-else statements allow you to include an if-else statement inside another if-else block for handling more complex conditions.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation This example checks if a number is positive and then further checks whether it is even or odd using nested if-else statements.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nExplanation This program checks if a score is at least 50. If true, it further checks if the score is 90 or above, printing “Excellent!” if it is, and “Good job!” if it isn’t. If the score is below 50, it prints “Better luck next time.”",
+    "title": "3  Sample Programs",
+    "section": "3.2 Data Types",
+    "text": "3.2 Data Types\nPython supports several built-in data types. Let’s explore some of the most common ones:\n\nInteger (int): Represents whole numbers.\nFloating Point (float): Represents decimal numbers.\nString (str): Represents sequences of characters.\nBoolean (bool): Represents True or False.\n\n\nExample 1\n\n\nStatic TemplateInteractive Cell\n\n\n\n# Demonstrating different data types\n\n# Integer\na = 10\nprint(\"Integer:\", a, type(a))\n\n# Float\nb = 3.14\nprint(\"Float:\", b, type(b))\n\n\n# String\nc = \"Hello, Python!\"\nprint(\"String:\", c, type(c))\n\n# Boolean\nd = True\nprint(\"Boolean:\", d, type(d))\n\nInteger: 10 &lt;class 'int'&gt;\nFloat: 3.14 &lt;class 'float'&gt;\nString: Hello, Python! &lt;class 'str'&gt;\nBoolean: True &lt;class 'bool'&gt;\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n3.2.1 Variables\nVariables are used to store data in memory. A variable is created when you assign a value to it using the = operator.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.2.2 Input and Output Statements\nPython provides the input() function to take user input and the print() function to display output.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.2.3 Operators\nOperators are special symbols used to perform operations on variables and values. Python supports several types of operators:\nArithmetic Operators: +, -, *, /, //, %, ** Comparison Operators: ==, !=, &gt;, &lt;, &gt;=, &lt;= Logical Operators: and, or, not Assignment Operators: =, +=, -=, *=, /=, //=, %=, **=\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.2.4 Arithmetic Expressions\nAn arithmetic expression is a combination of numbers, operators, and variables that evaluates to a value.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.2.5 Operator Precedence\nOperator precedence determines the order in which operations are performed in an expression. The following list shows the precedence from highest to lowest:\n** (Exponentiation) *, /, //, % (Multiplication, Division, Floor Division, Modulus) +, - (Addition, Subtraction)\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.2.6 Evaluation of Expressions\nPython evaluates expressions from left to right, following the precedence rules.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.2.7 Conditional Statements in Python\nConditional statements in Python allow the execution of specific code blocks based on whether a condition is true or false. Let’s explore various types of conditional statements.\n\n3.2.7.1 The if Statement\nThe if statement tests a specific condition. If the condition is true, the code block under the if statement is executed.\nExample\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nThe above program checks if number is greater than 0. Since 10 is greater than 0, the condition is true, and the message is printed.\n\n\n\n\n3.2.7.2 The if-else Statement\nThe if-else statement allows you to execute one block of code if the condition is true and another block if it is false.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nIn this example, the program checks if number is greater than or equal to 0. If true, it prints that the number is non-negative. Otherwise, it prints that the number is negative.\n\n\n\nExample 2\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nThis program checks if a person’s age is greater than or equal to 18. If true, it prints that the person is eligible to vote. Otherwise, it states they are not eligible to vote.\n\n\n\n\n\n3.2.8 The elif Statement\nThe elif statement, short for “else if,” allows you to check multiple conditions sequentially. If one of the conditions is true, the corresponding block of code is executed.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nHere, the program checks three conditions: whether the number is positive, zero, or negative. The elif statement handles the case where number is exactly 0.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nThis program assigns a grade based on the marks obtained. Depending on the range in which the marks fall, the corresponding grade is assigned and printed.\n\n\n\n3.2.8.1 Nested if-else Statements\nNested if-else statements allow you to include an if-else statement inside another if-else block for handling more complex conditions.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nThis example checks if a number is positive and then further checks whether it is even or odd using nested if-else statements.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExplanation\n\n\n\nThis program checks if a score is at least 50. If true, it further checks if the score is 90 or above, printing “Excellent!” if it is, and “Good job!” if it isn’t. If the score is below 50, it prints “Better luck next time.”",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sample Programs</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sample Programs</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {

@@ -10,8 +10,11 @@ execute:
 
 ---
 
+## Introduction
 
-This is a book created from markdown and executable code.
+This chapter introduce the `python` programming for beginers.
+
+This book is created with Quarto and `pyodide` extension is cused for online python scripting to demonstrate the python programming in this course site itself.
 
 See @knuth84 for additional discussion of literate programming.
 
@@ -19,3 +22,5 @@ See @knuth84 for additional discussion of literate programming.
 a=10
 print(a)
 ```
+
+## Examples

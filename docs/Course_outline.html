@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Justin Mathew">
+<meta name="dcterms.date" content="2024-08-15">
 
-<title>References – Python Programming</title>
+<title>1&nbsp; Course Outline – Python Programming</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,7 +32,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="prev">
+<link href="./intro.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -99,7 +83,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Course_outline.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Outline</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +136,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Course_outline.html" class="sidebar-item-text sidebar-link">
+  <a href="./Course_outline.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Outline</span></span></a>
   </div>
 </li>
@@ -176,7 +160,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -185,22 +169,56 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview"><span class="header-section-number">1.1</span> Course Overview</a></li>
+  <li><a href="#key-ideas" id="toc-key-ideas" class="nav-link" data-scroll-target="#key-ideas"><span class="header-section-number">1.2</span> Key Ideas</a>
+  <ul class="collapse">
+  <li><a href="#topic-1-introduction-to-algorithmic-thinking" id="toc-topic-1-introduction-to-algorithmic-thinking" class="nav-link" data-scroll-target="#topic-1-introduction-to-algorithmic-thinking"><span class="header-section-number">1.2.1</span> Topic 1: Introduction to Algorithmic Thinking</a></li>
+  <li><a href="#topic-2-familiarization-with-computer-systems-and-language-translators" id="toc-topic-2-familiarization-with-computer-systems-and-language-translators" class="nav-link" data-scroll-target="#topic-2-familiarization-with-computer-systems-and-language-translators"><span class="header-section-number">1.2.2</span> Topic 2: Familiarization with Computer Systems and Language Translators</a></li>
+  <li><a href="#topic-3-justification-for-using-python" id="toc-topic-3-justification-for-using-python" class="nav-link" data-scroll-target="#topic-3-justification-for-using-python"><span class="header-section-number">1.2.3</span> Topic 3: Justification for Using Python</a></li>
+  <li><a href="#topic-4-developing-algorithms-and-flow-charts" id="toc-topic-4-developing-algorithms-and-flow-charts" class="nav-link" data-scroll-target="#topic-4-developing-algorithms-and-flow-charts"><span class="header-section-number">1.2.4</span> Topic 4: Developing Algorithms and Flow Charts</a></li>
+  <li><a href="#topic-5-data-types-and-arithmetic-operations-in-python" id="toc-topic-5-data-types-and-arithmetic-operations-in-python" class="nav-link" data-scroll-target="#topic-5-data-types-and-arithmetic-operations-in-python"><span class="header-section-number">1.2.5</span> Topic 5: Data Types and Arithmetic Operations in Python</a></li>
+  <li><a href="#topic-6-conditional-statements-in-python" id="toc-topic-6-conditional-statements-in-python" class="nav-link" data-scroll-target="#topic-6-conditional-statements-in-python"><span class="header-section-number">1.2.6</span> Topic 6: Conditional Statements in Python</a></li>
+  <li><a href="#topic-7-loop-structures-in-python" id="toc-topic-7-loop-structures-in-python" class="nav-link" data-scroll-target="#topic-7-loop-structures-in-python"><span class="header-section-number">1.2.7</span> Topic 7: Loop Structures in Python</a></li>
+  <li><a href="#topic-8-functions-in-python" id="toc-topic-8-functions-in-python" class="nav-link" data-scroll-target="#topic-8-functions-in-python"><span class="header-section-number">1.2.8</span> Topic 8: Functions in Python</a></li>
+  <li><a href="#topic-9-string-operations-in-python" id="toc-topic-9-string-operations-in-python" class="nav-link" data-scroll-target="#topic-9-string-operations-in-python"><span class="header-section-number">1.2.9</span> Topic 9: String Operations in Python</a></li>
+  <li><a href="#topic-10-real-timetechnical-applications-using-data-structures" id="toc-topic-10-real-timetechnical-applications-using-data-structures" class="nav-link" data-scroll-target="#topic-10-real-timetechnical-applications-using-data-structures"><span class="header-section-number">1.2.10</span> Topic 10: Real-time/Technical Applications Using Data Structures</a></li>
+  <li><a href="#topic-11-micro-project" id="toc-topic-11-micro-project" class="nav-link" data-scroll-target="#topic-11-micro-project"><span class="header-section-number">1.2.11</span> Topic 11: Micro Project</a></li>
+  </ul></li>
+  <li><a href="#teaching-methodology" id="toc-teaching-methodology" class="nav-link" data-scroll-target="#teaching-methodology"><span class="header-section-number">1.3</span> Teaching Methodology</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation"><span class="header-section-number">1.4</span> Evaluation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">References</h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Outline</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Justin Mathew </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 15, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -210,14 +228,294 @@ div.csl-indent {
 </header>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput.
-J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
-</div>
+<section id="course-overview" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="course-overview"><span class="header-section-number">1.1</span> Course Overview</h2>
+<p><strong>Credits:</strong> 2<br>
+<strong>Hours per Week:</strong> 2</p>
+<p><strong>Course Objectives:</strong></p>
+<ol type="1">
+<li>To develop algorithmic thinking and problem-solving skills.</li>
+<li>To familiarize students with computer systems, software, and language translators.</li>
+<li>To justify the use of Python for programming and algorithmic design.</li>
+<li>To introduce Python programming concepts, including data types, conditional statements, and loops.</li>
+<li>To implement functions, string operations, and real-time applications using Python’s data structures.</li>
+<li>To enable students to apply their knowledge to solve practical problems through a micro project.</li>
+</ol>
+</section>
+<section id="key-ideas" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="key-ideas"><span class="header-section-number">1.2</span> Key Ideas</h2>
+<section id="topic-1-introduction-to-algorithmic-thinking" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="topic-1-introduction-to-algorithmic-thinking"><span class="header-section-number">1.2.1</span> Topic 1: Introduction to Algorithmic Thinking</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li><p>Understand the concept of algorithmic thinking.</p></li>
+<li><p>Develop basic algorithms for simple problems.</p></li>
+<li><p>Recognize the importance of algorithms in problem-solving.</p></li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>What is Algorithmic Thinking?</p>
+<ul>
+<li><p>Importance in problem-solving</p></li>
+<li><p>Steps in designing an algorithm</p></li>
+</ul></li>
+<li><p>Example Algorithms:</p>
+<ul>
+<li>Simple tasks (e.g., making a cup of tea)</li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Create algorithms for everyday activities to illustrate the concept.</li>
+</ul>
+</section>
+<section id="topic-2-familiarization-with-computer-systems-and-language-translators" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="topic-2-familiarization-with-computer-systems-and-language-translators"><span class="header-section-number">1.2.2</span> Topic 2: Familiarization with Computer Systems and Language Translators</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li><p>Understand basic computer architecture and components.</p></li>
+<li><p>Identify different types of software and language translators.</p></li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Introduction to Computer Architecture:</p>
+<ul>
+<li><p>Block diagram of a computer</p></li>
+<li><p>Hardware components (Input, Output devices)</p></li>
+<li><p>Memory types</p></li>
+</ul></li>
+<li><p>Software Types:</p>
+<ul>
+<li><p>High-level vs.&nbsp;Low-level languages</p></li>
+<li><p>Assembly languages</p></li>
+</ul></li>
+<li><p>Language Translators:</p>
+<ul>
+<li>Compilers, Interpreters, Assemblers</li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Explore how different programming languages and translators affect the execution of a simple program.</li>
+</ul>
+</section>
+<section id="topic-3-justification-for-using-python" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="topic-3-justification-for-using-python"><span class="header-section-number">1.2.3</span> Topic 3: Justification for Using Python</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li><p>Understand the advantages of Python for algorithmic thinking and programming.</p></li>
+<li><p>Compare Python with other programming languages in terms of simplicity and effectiveness.</p></li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Why Python?</p>
+<ul>
+<li><p>Python’s simplicity and readability</p></li>
+<li><p>Comparison with other languages (e.g., C++, Java)</p></li>
+<li><p>Python’s role in modern software development and data science</p></li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Demonstrate a basic Python script and compare it with an equivalent script in another language.</li>
+</ul>
+</section>
+<section id="topic-4-developing-algorithms-and-flow-charts" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" class="anchored" data-anchor-id="topic-4-developing-algorithms-and-flow-charts"><span class="header-section-number">1.2.4</span> Topic 4: Developing Algorithms and Flow Charts</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li><p>Develop and represent algorithms using flowcharts.</p></li>
+<li><p>Understand properties of good algorithms.</p></li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Introduction to Algorithms:</p>
+<ul>
+<li>Properties of good algorithms</li>
+</ul></li>
+<li><p>Flowchart Creation:</p>
+<ul>
+<li>Basic flowchart symbols and conventions</li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Design flowcharts for simple algorithms (e.g., sorting a list of numbers).</li>
+</ul>
+</section>
+<section id="topic-5-data-types-and-arithmetic-operations-in-python" class="level3" data-number="1.2.5">
+<h3 data-number="1.2.5" class="anchored" data-anchor-id="topic-5-data-types-and-arithmetic-operations-in-python"><span class="header-section-number">1.2.5</span> Topic 5: Data Types and Arithmetic Operations in Python</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li><p>Understand and use basic data types and operators in Python.</p></li>
+<li><p>Perform arithmetic operations and handle expressions.</p></li>
+</ul>
+<p><strong>Content:</strong> - Introduction to Python Programming:</p>
+<ul>
+<li><p>Data types (int, float, str, etc.)</p></li>
+<li><p>Keywords and Variables</p></li>
+<li><p>Input and Output statements</p></li>
+<li><p>Operators and Arithmetic expressions</p></li>
+<li><p>Operator precedence and Evaluation of expressions</p></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Write a Python program that performs various arithmetic operations and displays results.</li>
+</ul>
+</section>
+<section id="topic-6-conditional-statements-in-python" class="level3" data-number="1.2.6">
+<h3 data-number="1.2.6" class="anchored" data-anchor-id="topic-6-conditional-statements-in-python"><span class="header-section-number">1.2.6</span> Topic 6: Conditional Statements in Python</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li>Implement and use conditional statements to control the flow of programs.</li>
+</ul>
+<p><strong>Content:</strong> - Types of Conditional Statements:</p>
+<ul>
+<li><p><code>if</code>, <code>if-else</code>, <code>elif</code>, nested <code>if-else</code>, <code>if-elif-else</code></p></li>
+<li><p>Practical Examples:</p>
+<ul>
+<li>Programs using conditional statements</li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Create a Python program that determines if a number is positive, negative, or zero.</li>
+</ul>
+</section>
+<section id="topic-7-loop-structures-in-python" class="level3" data-number="1.2.7">
+<h3 data-number="1.2.7" class="anchored" data-anchor-id="topic-7-loop-structures-in-python"><span class="header-section-number">1.2.7</span> Topic 7: Loop Structures in Python</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li>Use loop structures to repeat actions and iterate over data.</li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Introduction to Looping:</p>
+<ul>
+<li><p><code>for</code>, <code>while</code>, nested loops</p></li>
+<li><p><code>break</code>, <code>continue</code>, <code>pass</code> statements</p></li>
+<li><p><code>range</code> function</p></li>
+</ul></li>
+<li><p>Sample Programs:</p>
+<ul>
+<li>Implementing various loop constructs</li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Write a Python program that calculates the factorial of a number using loops.</li>
+</ul>
+</section>
+<section id="topic-8-functions-in-python" class="level3" data-number="1.2.8">
+<h3 data-number="1.2.8" class="anchored" data-anchor-id="topic-8-functions-in-python"><span class="header-section-number">1.2.8</span> Topic 8: Functions in Python</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li><p>Define and use functions for modular programming.</p></li>
+<li><p>Understand function concepts including parameter passing and return values.</p></li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Concept of Functions:</p>
+<ul>
+<li><p>Definition, Calling Functions</p></li>
+<li><p>Passing Parameters and Return Values</p></li>
+<li><p>Type Conversion and Coercion</p></li>
+</ul></li>
+<li><p>Advanced Function Concepts:</p>
+<ul>
+<li><p>Lambda functions</p></li>
+<li><p>Built-in Mathematical functions</p></li>
+</ul></li>
+<li><p>Sample Programs Using Functions</p></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Develop a Python program that uses functions to perform mathematical operations.</li>
+</ul>
+</section>
+<section id="topic-9-string-operations-in-python" class="level3" data-number="1.2.9">
+<h3 data-number="1.2.9" class="anchored" data-anchor-id="topic-9-string-operations-in-python"><span class="header-section-number">1.2.9</span> Topic 9: String Operations in Python</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li>Manipulate and process strings using Python’s string handling functions.</li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Introduction to Strings:</p>
+<ul>
+<li>String creation and manipulation</li>
+</ul></li>
+<li><p>String Handling Functions:</p>
+<ul>
+<li>Commonly used functions (e.g., <code>split()</code>, <code>join()</code>, <code>replace()</code>)</li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Write a Python program that processes and formats user input strings.</li>
+</ul>
+</section>
+<section id="topic-10-real-timetechnical-applications-using-data-structures" class="level3" data-number="1.2.10">
+<h3 data-number="1.2.10" class="anchored" data-anchor-id="topic-10-real-timetechnical-applications-using-data-structures"><span class="header-section-number">1.2.10</span> Topic 10: Real-time/Technical Applications Using Data Structures</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li>Apply data structures (lists, tuples, dictionaries) to solve real-world problems.</li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Lists, Tuples, Dictionaries:</p>
+<ul>
+<li><p>Concepts, operations, and functions</p></li>
+<li><p>Mutable vs Immutable data structures</p></li>
+</ul></li>
+<li><p>Applications:</p>
+<ul>
+<li><p>Identifying use cases</p></li>
+<li><p>Solving problems using lists, tuples, and dictionaries</p></li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Create a Python program that manages a list of student records using lists and dictionaries.</li>
+</ul>
+</section>
+<section id="topic-11-micro-project" class="level3" data-number="1.2.11">
+<h3 data-number="1.2.11" class="anchored" data-anchor-id="topic-11-micro-project"><span class="header-section-number">1.2.11</span> Topic 11: Micro Project</h3>
+<p><strong>Lesson Outcomes:</strong></p>
+<ul>
+<li>Apply Python concepts to develop a project relevant to the student’s field of study.</li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li><p>Project Development:</p>
+<ul>
+<li><p>Design and implementation of a simple project</p></li>
+<li><p>Application of learned concepts to a practical problem</p></li>
+</ul></li>
+</ul>
+<p><strong>Practical Situation:</strong></p>
+<ul>
+<li>Develop and present a micro project related to the student’s branch of study.</li>
+</ul>
+</section>
+</section>
+<section id="teaching-methodology" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="teaching-methodology"><span class="header-section-number">1.3</span> Teaching Methodology</h2>
+<ul>
+<li><p>Hands-on lab exercises</p></li>
+<li><p>Step-by-step problem-solving approach</p></li>
+<li><p>Regular assessments and feedback</p></li>
+</ul>
+</section>
+<section id="evaluation" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="evaluation"><span class="header-section-number">1.4</span> Evaluation</h2>
+<ul>
+<li><p>Lab exercises and practical implementation</p></li>
+<li><p>Micro Project</p></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -642,11 +940,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span>
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./intro.html" class="pagination-link" aria-label="Basic Python Programming">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic Python Programming</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
